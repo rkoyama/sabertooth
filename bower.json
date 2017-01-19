@@ -1,8 +1,8 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
-  "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "name": "sabertooth",
+  "description": "Sabertooth Defense Enterprises",
+  "version": "0.0.1",
+  "homepage": "none yet",
   "license": "MIT",
   "private": true,
   "dependencies": {
