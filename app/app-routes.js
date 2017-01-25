@@ -3,15 +3,15 @@
 app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
   	$routeProvider.
   		when('/', {
-  			templateUrl: 'components/home/home.html',
+  			templateUrl: 'pages/home/home.html',
   			controller: 'HomeCtrl'
   		}).
   		when('/services', {
-    		templateUrl: 'components/services/services.html',
+    		templateUrl: 'pages/services/services.html',
     		controller: 'ServicesCtrl'
   		}).
   		when('/contact', {
-    		templateUrl: 'components/contact/contact.html',
+    		templateUrl: 'pages/contact/contact.html',
     		controller: 'ContactCtrl'
   		}).
   		otherwise({

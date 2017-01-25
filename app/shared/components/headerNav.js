@@ -1,11 +1,10 @@
 'use strict';
 
-function HeaderNavCtrl($scope){
-	var ctrl = this;
-}
+function HeaderNavCtrl(){
 
-angular.module('sabertoothApp')
-.component('headerNav', {
-	templateUrl: 'header-nav.html',
+};
+
+app.component('headerNav', {
+	templateUrl: 'shared/components/header-nav.html',
 	controller: HeaderNavCtrl
-});
+}); 
